@@ -1,0 +1,206 @@
+
+
+/*Fonts ----*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+body {
+  background-color:black;
+  box-sizing:border-box;
+  margin: 0;
+
+
+}
+
+#container{
+width:30%;
+
+background-color: black;
+position: absolute;
+
+top:0;
+bottom:0 ;
+
+color:white;
+
+position:fixed;
+
+
+}
+
+
+
+
+
+h1, h2 {
+  font-family: "Roboto";
+  font-weight: bold;
+  margin: 15px 5px;
+  padding-left: 20px;
+  font-size: 20px;
+
+}
+h3, h4, h5 {
+  font-family: "Roboto";
+  font-weight: bold;
+  margin: 20px 5px;
+  padding-left: 20px;
+  font-size: 18px;
+    padding-top: 10px;
+}
+
+#graph-container{
+
+  display:flex;
+  position:absolute;
+  left:31%;
+  top:2%;
+
+  /*border: solid red 2px;*/
+  min-width:0;
+  max-width:73%;!important;
+
+
+}
+
+#graph2{
+
+  padding-left:20px;
+}
+
+.div-for-dropdown {
+  padding-top: 15px;
+  height:15px;
+  padding-bottom:100px;
+  /*background-color: #0a001f;!important;*/
+  padding-left:20px;
+  /*border:solid 2px red;*/
+
+}
+.Select-control {
+    background-color: #222 !important;
+}
+
+.Select.is-focused > .Select-control {
+    background-color: #222;
+}
+
+#school-input {
+    color: white;
+}
+
+.Select-value-label {
+    color: white;
+    font-family: Roboto;
+}
+
+.Select--single > .Select-control .Select-value, .Select-placeholder {
+    border: 1px solid grey;
+    border-radius: 4px;
+    font-family: Roboto;
+}
+
+.VirtualizedSelectOption {
+    background-color: #222;
+    color: white;
+    font-family: Roboto;
+ }
+
+.VirtualizedSelectFocusedOption {
+    background-color: #222;
+    opacity: .7;
+    font-family: Roboto;
+}
+
+.Select.is-focused:not(.is-open) > .Select-control {
+    background-color: #222;
+    border-color: var(--primary);
+    box-shadow: none;
+    font-family: Roboto;
+}
+.Select.is-focused > .Select-control {
+    background-color: #222;
+    border-color: var(--primary);
+    box-shadow: none;
+    font-family: Roboto;
+}
+
+.Select-input>input {
+    font-family: Roboto;
+    color:white;
+
+}
+.rc-slider-mark-text {
+
+    color:white;
+}
+
+.rc-slider-step {
+
+    background: #433b42;
+}
+
+#manager-flag{
+    padding-left:18px;
+
+    width:70px;
+
+}
+#Flag-component {
+    display:flex;
+}
+
+#Switch-container{
+
+    display:flex;
+
+}
+
+#proxy-flag{
+    padding-left:70px;
+
+}
+#graph3{
+
+
+    width:70%;
+    position:absolute;
+    top:42%;
+    left:31%;
+    /*padding-top: 20px;*/
+
+
+}
+
+
+#second-graph-container{
+
+    position:absolute;
+    top:95%;
+    left:31%;
+    padding-top: 1px;
+    /*border: solid red 2px;*/
+
+    /*border:solid red 2px;*/
+
+
+
+}
+
+#graph6{
+
+    padding-left:20px;
+}
+
+
+.div-for-altype-dropdown {
+  padding-top: 15px;
+  height:15px;
+  padding-bottom:100px;
+  /*background-color: #0a001f;!important;*/
+  padding-left:20px;
+  /*border:solid 2px red;*/
+
+}
